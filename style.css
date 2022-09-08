@@ -1,0 +1,60 @@
+#container {
+    width: 650px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+}
+
+#pieceContainer {
+    width: 306px;
+    height: 306px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    line-height: 306px;
+}
+
+#puzzleContainer {
+    width: 306px;
+    height: 306px;
+    border: 1px solid black;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul button {
+    width: 100px;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#btnReset {
+    display: none;
+}
+
+.piece {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    background-image: url(rsz_stray.jpg);
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 649px){
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+    }
+}
