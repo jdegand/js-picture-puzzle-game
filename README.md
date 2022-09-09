@@ -12,7 +12,11 @@ Inspiration from [Alienware Arena](https://alienwarearena.com) picture game wher
 
 ![](js-puzzle-game-incorrect.png)
 
-![](js-puzzle-game-mobile.png)
+![](js-puzzle-game-mobile.png "mobile")
+
+## Links 
+
+- [Github Pages](https://jdegand.github.io/js-picture-puzzle-game)
 
 ## Thoughts
 
